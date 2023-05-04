@@ -4,6 +4,8 @@ import Blog from 'pages/Blog'
 import Tech from 'pages/bogPages/Tech'
 import Sport from 'pages/bogPages/Sport'
 import Fashion from 'pages/Fashion'
+import Product from 'pages/product'
+import Login from 'pages/login'
 
 export const ChildrenRouteHome: TypeViewChildrenRoute[] = [
   {
@@ -23,6 +25,26 @@ export const ChildrenRouteHome: TypeViewChildrenRoute[] = [
     name: 'user',
     index: true,
     path: '/fashion',
+    roles: ['user'],
+    views: undefined,
+  },
+  {
+    collapse: false,
+    component: <Product />,
+    icon: undefined,
+    name: 'user',
+    index: true,
+    path: '/product',
+    roles: ['user'],
+    views: undefined,
+  },
+  {
+    collapse: false,
+    component: <Login />,
+    icon: undefined,
+    name: 'user',
+    index: true,
+    path: '/login',
     roles: ['user'],
     views: undefined,
   },

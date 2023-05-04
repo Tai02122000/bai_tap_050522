@@ -32,13 +32,13 @@ export const dataNavbar = [
   },
   {
     title: 'Product',
-    path: '/',
+    path: '/product',
     id: 4,
     subMenu: null,
   },
   {
     title: 'Login',
-    path: '/',
+    path: '/login',
     id: 5,
     subMenu: null,
   },

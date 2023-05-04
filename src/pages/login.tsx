@@ -1,10 +1,10 @@
 import Container from 'components/Container'
 import React from 'react'
 
-const Fashion = () => {
+const Login = () => {
   return (
-    <Container><h1>Fashion</h1></Container>
+    <Container><h1>Login</h1></Container>
   )
 }
 
-export default Fashion
+export default Login
