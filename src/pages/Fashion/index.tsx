@@ -3,7 +3,7 @@ import React from 'react'
 
 const Fashion = () => {
   return (
-    <Container><h1>Fashion</h1></Container>
+    <Container><h1>Welcome to Page Fashion</h1></Container>
   )
 }
 

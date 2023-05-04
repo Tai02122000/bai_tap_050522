@@ -12,13 +12,13 @@ const Newsletter = () => {
         </p>
         <div className='form'>
           <div className='input input__name'>
-            <input type='text' placeholder='Your name' />
+            <input required type='text' placeholder='Your name(*)' />
           </div>
           <div className='input input__phone'>
-            <input type='text' placeholder='Your Mobile phone' />
+            <input required type='text' placeholder='Your Mobile phone' />
           </div>
           <div className='input input__email'>
-            <input type='text' placeholder='Your email address' />
+            <input required type='email' placeholder='Your email address' />
           </div>
           <button>
             <i className='fa-regular fa-envelope'></i>
